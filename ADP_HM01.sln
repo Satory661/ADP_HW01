@@ -1,10 +1,12 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ADP_HM01", "ADP_HM01\ADP_HM01\ADP_HM01.csproj", "{CAA0DE80-B3A8-47C4-B1C3-5D93C3A02E4C}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ADP_HM01.Sample", "ADP_HM01\ADP_HM01.Sample\ADP_HM01.Sample.csproj", "{409561D2-0E27-47E9-B013-212226FBC96F}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ADP_HM01.Tests", "ADP_HM01\ADP_HM01.Tests\ADP_HM01.Tests.csproj", "{1EE76DDF-D394-4F25-9D8D-E1C64A8995EB}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ADP_HM01", "ADP_HM01", "{74FDB200-FCD3-4272-A011-CBF2D2E4768F}"
+	ProjectSection(SolutionItems) = preProject
+		ADP_HM01\Program.cs = ADP_HM01\Program.cs
+		ADP_HM01\Reader.cs = ADP_HM01\Reader.cs
+		ADP_HM01\Book.cs = ADP_HM01\Book.cs
+		ADP_HM01\Library.cs = ADP_HM01\Library.cs
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -12,17 +14,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{CAA0DE80-B3A8-47C4-B1C3-5D93C3A02E4C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{CAA0DE80-B3A8-47C4-B1C3-5D93C3A02E4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{CAA0DE80-B3A8-47C4-B1C3-5D93C3A02E4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{CAA0DE80-B3A8-47C4-B1C3-5D93C3A02E4C}.Release|Any CPU.Build.0 = Release|Any CPU
-		{409561D2-0E27-47E9-B013-212226FBC96F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{409561D2-0E27-47E9-B013-212226FBC96F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{409561D2-0E27-47E9-B013-212226FBC96F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{409561D2-0E27-47E9-B013-212226FBC96F}.Release|Any CPU.Build.0 = Release|Any CPU
-		{1EE76DDF-D394-4F25-9D8D-E1C64A8995EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1EE76DDF-D394-4F25-9D8D-E1C64A8995EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1EE76DDF-D394-4F25-9D8D-E1C64A8995EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1EE76DDF-D394-4F25-9D8D-E1C64A8995EB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
+# END update
